@@ -37,11 +37,14 @@ sendBtn.onclick = async () =>{
     addMessage(botReply, 'bot-message');
 
     localStorage.setItem("chatHistory", chatBox.innerHTML)
- 
 }
 
 userInput.addEventListener('keypress', (e)=>{
     if(e.key === "Enter") sendBtn.click();
+})
 
+window.addEventListener('load', ()=>{
+    const savedChat = localStorage.getItem("chatHistory");
+    if(savedChat) chatBox.innerHTML = savedChat;
 })
 

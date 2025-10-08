@@ -20,6 +20,12 @@ function showTyping(){
     return typingDiv;
 }
 
+async function getBotReply(userMessage){
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key${}`;
+
+
+}
+
 sendBtn.onclick = async () =>{
     const message = userInput.value.trim();
     if(message === "") return;
@@ -30,7 +36,7 @@ sendBtn.onclick = async () =>{
 
     const typingDiv = showTyping();
 
-    const botReply = "Reply";
+    const botReply = await getBotReply(message);
 
     typingDiv.remove();
 

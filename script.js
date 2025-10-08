@@ -21,8 +21,22 @@ function showTyping(){
 }
 
 async function getBotReply(userMessage){
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key${}`;
+   const backendURL = "http://localhost:3001/api/v1/chat";
+   console.log(userMessage)
 
+   const reply = JSON.stringify({message: userMessage})
+
+   console.log(reply);
+
+   const response = await fetch(backendURL, {
+    method: "POST",
+    headers: {"Content-Type" : "application/json"},
+    body: JSON.stringify({message: userMessage})
+   })
+
+   
+
+   return response;
 
 }
 

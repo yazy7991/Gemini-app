@@ -17,9 +17,6 @@ A lightweight, single-page web application built with plain HTML, CSS, and JavaS
 - [Development](#development)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
-- [Roadmap](#roadmap)
-- [License](#license)
-- [Contact](#contact)
 - [Acknowledgements](#acknowledgements)
 
 ---

@@ -117,31 +117,6 @@ Please open an issue first for larger changes so we can discuss the design and s
 
 ---
 
-## Roadmap / TODO
-- [ ] Add a real backend implementation (API) in `backend/`
-- [ ] Add automated tests and CI
-- [ ] Add demo/screenshot and live demo link
-- [ ] Add a license and contribution guidelines
-
-(Modify this list to reflect your priorities.)
-
----
-
-## License
-No license is included in this repository yet. If you want to open-source this project, consider adding a LICENSE file (MIT, Apache-2.0, etc.). Example: add an `MIT` license to permit reuse.
-
----
-
-## Contact
-Project maintained by: yazy7991
-
-If you'd like me to add this README directly to the repo and open a pull request, I can create a branch and push the file. Tell me if you want:
-- A specific license added (MIT, Apache 2.0, etc.)
-- A live demo link or screenshots included
-- Backend run instructions to be added now (and provide the backend details)
-
----
-
 ## Acknowledgements
 - Thanks to the open web community and any libraries or resources you used while building this project.
 - Use this space to credit inspirations, libraries, or tutorials.

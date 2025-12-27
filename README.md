@@ -57,9 +57,6 @@ Check `backend/server.js` for the exact routes and payload expectations.
 ## Contributing
 - Fork the repo, create a feature branch, and open a pull request with a clear description and associated changes.
 
-## License
-Specify your license here (e.g., MIT). If you don't intend to publish a license, add a short note describing usage restrictions.
-
 ## Contact
 For questions or collaboration, open an issue or contact the maintainer listed in the repository metadata.
 
